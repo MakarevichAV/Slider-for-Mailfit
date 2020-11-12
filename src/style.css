@@ -1,0 +1,29 @@
+@import "~normalize.css";
+@font-face {
+    font-family: 'Golos';
+    src: url('@/assets/fonts/Golos\ Text_Regular.ttf') format('truetype')
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.logo {
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    background: url('@/assets/images/wp.png') no-repeat center center / contain;
+}
+.test {
+    text-align: center;
+    color: rgb(37, 37, 37);
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 100px;
+    font-family: 'Golos', sans-serif;
+}
+.description {
+    text-align: center;
+    font-size: 22px;
+    color: rgb(27, 60, 82);
+}
